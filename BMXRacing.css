@@ -1,0 +1,170 @@
+/* Reset default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+
+/* Nav Styling - Guaranteed Horizontal Links without Bullets or Underlines */
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none; 
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #444;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ff4e50;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+
+
+/* Main sections */
+main {
+    padding: 20px;
+}
+
+/* Images */
+.images {
+    margin-bottom: 30px;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Video */
+video {
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+}
+
+/* Contact links */
+.contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Form */
+form {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #007BFF;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #222;
+    color: #fff;
+    margin-top: 30px;
+}

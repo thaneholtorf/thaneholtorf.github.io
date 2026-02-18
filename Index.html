@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="BMX Racing Home Page - Learn about BMX rules, history, media, and get involved!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMX Racing Home</title>
+    <link rel="stylesheet" href="BMXRacing.css">
+</head>
+<body>
+    <header>
+        <h1>BMX Racing</h1>
+        <nav>
+            <ul>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="myinvolvement.html">My Involvement</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Introduction -->
+        <section class="welcome">
+            <h2>Welcome to BMX Racing!</h2>
+            <p>BMX Racing is an exciting sport involving high-speed races on dirt tracks filled with jumps and obstacles. Whether you're new to BMX or a seasoned rider, this site will guide you through rules, history, media, and how to get involved.</p>
+        </section>
+
+        <!-- Image Gallery -->
+        <section class="images">
+            <h2>Gallery</h2>
+            <div class="image-container">
+                <img src="image1.jpg" alt="BMX Race 1">
+                <img src="image2.jpg" alt="BMX Race 2">
+            </div>
+        </section>
+
+        
+
+        <!-- Video -->
+        <section class="video">
+            <h2>BMX in Action</h2>
+            <video width="640" height="360" controls>
+                <source src="bmx_sample.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Watch a short BMX racing clip to see the excitement firsthand.</p>
+        </section>
+
+        <!-- Contact & Links -->
+        <section class="contact">
+            <h2>Contact & Resources</h2>
+            <p>Email us at: <a href="mailto:info@bmxracing.com">info@bmxracing.com</a></p>
+            <p>Learn more about BMX on the <a href="https://www.usabmx.com" target="_blank">USA BMX official site</a>.</p>
+        </section>
+
+        <!-- Form -->
+        <section class="signup">
+            <h2>Get Involved</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="5" max="100" required>
+
+                <label for="interest">Interested In:</label>
+                <select id="interest" name="interest">
+                    <option value="racing">Racing</option>
+                    <option value="volunteering">Volunteering</option>
+                    <option value="coaching">Coaching</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BMX Racing | All rights reserved</p>
+    </footer>
+</body>
+</html>
